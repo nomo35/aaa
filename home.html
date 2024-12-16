@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body{
+            margin-top: 50px;
+        }
+        .Form__btn{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--<a href="index.html" target="_blank">東京</a>
+    <a href="hokkaido.html" target="_blank">北海道</a>
+    <a href="okinawa.html" target="_blank">沖縄</a>-->
+
+    <main>
+        <div class="ly__wrapper">
+            <div class="EntryForm__area">
+                <form  class="FormArea" action="#"method="post" target="_self">
+                    <p><label class="required">都道府県を選択してください</label></p>
+        
+                    <select name="select" onChange="location.href=value;">
+                        <option value="#">都道府県を選ぶ</option>
+                        <option value="hokkaido.html">北海道</option>
+                        <option value="index.html">東京都</option>
+                        <option value="okinawa.html">沖縄県</option>
+                      </select>
+    
+                    <div class="Form__btn">
+                            <a href="#" >
+                            <input type="submit" value="天気を見る" class="btn">
+                            </a>
+                    </div>
+        
+                        
+                </form>
+            </div>
+        </div>
+    </main>
+    
+
+    
+</body>
+</html>
